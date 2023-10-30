@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Deck</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="script.js" defer></script> -->
+</head>
+<body>
+    <header>
+        <a href="/">
+            <h1>Movie Deck</h1>
+        </a>
+    </header>
+
+    <!-- Search Bar -->
+
+    <div class="search-bar">
+        <input type="search" name="search" id="search-input" placeholder="Search by name..." autocomplete="off" />
+        <button id="search-button">Search</button>
+    </div>
+
+    <!-- Sort tabs -->
+
+    <div class="sorting-options">
+        <button id="sort-by-date">Sort by date(oldest to latest)</button>
+        <button id="sort-by-rating">Sort by rating(least to most)</button>
+    </div>
+
+    <!-- listing tabs -->
+    <div class="tabs">
+        <button id="all-tab" class="active-tab">All</button>
+        <button id="favorites-tab">Favorites</button>
+    </div>
+    
+    <!-- Listing -->
+
+    <div class="movies-list-pagination-btns">
+        <ul id="movies-list">
+            
+        </ul>
+
+        <!-- Pagination -->
+
+        <div class="pagination">
+            <button id="prev-button">Previous</button>
+            <button id="page-number-button">Current Page: 1</button>
+            <button id="next-button">Next</button>
+        </div>  
+    </div>
+
+    <!-- Foote
+        r -->
+    <footer>
+        <p>&copy; 2023 Movie Deck</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/68129f478c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
